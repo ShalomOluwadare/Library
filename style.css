@@ -33,6 +33,9 @@ body {
   border-radius: 5px;
   font-size: 0.9em;
 }
+input:hover {
+  border-color: black;
+}
 .addBook.btn {
   width: 100%;
 }
@@ -45,7 +48,7 @@ body {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(3px);
   z-index: 1;
 }
 button {
@@ -86,6 +89,22 @@ td {
 }
 table {
   width: 100%;
+}
+th {
+  font-size: 1em;
+}
+td {
+  cursor: pointer;
+  text-align: center;
+  text-transform: capitalize;
+}
+td:nth-child(5),
+td:nth-child(6) {
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 50px;
 }
 #read {
   width: 20px;
