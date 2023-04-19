@@ -8,6 +8,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 10px;
+  font-family: roboto;
 }
 .modal {
   display: flex;
@@ -94,17 +95,26 @@ th {
   font-size: 1em;
 }
 td {
-  cursor: pointer;
   text-align: center;
   text-transform: capitalize;
 }
 td:nth-child(5),
 td:nth-child(6) {
+  cursor: pointer;
   font-weight: 700;
   background-color: black;
   color: white;
   border-radius: 10px;
-  width: 50px;
+  width: 100px;
+}
+footer {
+  position: absolute;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  color: whitesmoke;
+  bottom: 0;
 }
 #read {
   width: 20px;
