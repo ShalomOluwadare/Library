@@ -4,3 +4,4 @@ The books are created using an object constructor which applies and specifies th
 The read status of any book can be changed at any time.
 Any book can be deleted but be careful. 
 This idea is from the odin project.
+There are two versions, one made with classes and one made without.
